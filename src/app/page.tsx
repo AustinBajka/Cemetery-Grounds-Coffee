@@ -58,7 +58,7 @@ export default function Home() {
 
   const CTAButton = () => {
     return (
-      <Link href="/menu" className="bg-gradient-to-b from-green-200 to-green-300  p-2 rounded max-w-max text-brown-800" >Order now</Link>
+      <Link href="/menu" className="bg-gradient-to-b from-green-200 to-green-300  p-2 h-11 rounded max-w-max text-brown-800 drop-shadow-md font-bold" >Order now</Link>
     );
   }
 
@@ -76,7 +76,7 @@ export default function Home() {
       <div className="flex flex-col gap-2">
         <SectionHeader title={weeklyHauntsTitle} textColor={ghostlyGreen600}/>
         <ParagraphCopy text={weeklyHauntsCopy} textColor={ghostlyGreen600} />
-        <div className="flex flex-row gap-2 overflow-x-scroll">
+        <div className="flex flex-row gap-2 overflow-x-scroll p-3 border-2  border-green-200 rounded bg-white-100">
           {ArrayOfWeeklyHaunts.map((item, index) => (
             <ItemPreview key={index} name={item.name} description={item.description} image={item.image} />
           ))}

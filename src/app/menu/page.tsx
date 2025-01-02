@@ -1,6 +1,7 @@
 'use client'
 import PageTitle from '@/components/Copy/PageTitle'
 import CoffeeIcon from '@/images/icons8-cafe-black-50px.png'
+import CakeIcon from '@/images/icons8-cake-black-50px.png'
 import Image, { StaticImageData } from 'next/image'
 import Link from 'next/link'
 
@@ -85,10 +86,10 @@ export const menuData: ItemPreviewPage = {
       name: 'Tombstone Treats',
       id: 4,
       items: [
-        { name: 'Ectoplasmic Eclairs', id: 401, image: CoffeeIcon },
-        { name: 'Haunted Chocolate Cake', id: 402, image: CoffeeIcon },
-        { name: 'Ghostly Green Macarons', id: 403, image: CoffeeIcon },
-        { name: 'Spectral Cinnamon Roll', id: 404, image: CoffeeIcon },
+        { name: 'Ectoplasmic Eclairs', id: 401, image: CakeIcon },
+        { name: 'Haunted Chocolate Cake', id: 402, image: CakeIcon },
+        { name: 'Ghostly Green Macarons', id: 403, image: CakeIcon },
+        { name: 'Spectral Cinnamon Roll', id: 404, image: CakeIcon },
       ],
     },
   ],
