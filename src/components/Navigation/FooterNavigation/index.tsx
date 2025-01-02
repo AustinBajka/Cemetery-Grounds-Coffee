@@ -50,7 +50,7 @@ const FooterNavigation = () => {
   const currentPath = usePathname();
   
   return (
-    <div className="fixed bottom-0 w-full bg-white flex justify-around items-center h-24 border-t border-green-600">
+    <div className="flex-0-0-auto w-full bg-white flex justify-around items-center p-2 h-24 border-t border-green-600">
       {arrayOfNavigation.map((nav, index) => (
         <FooterNavButton key={index} link={nav.link} routeName={nav.routeName} currentRoute={currentPath} image={nav.image} imageAltText={nav.imageAltText}/>
       ))}

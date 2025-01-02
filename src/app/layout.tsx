@@ -25,13 +25,15 @@ export default function RootLayout({
       <body
         className={crimsonpro.className}
       >
+        <div className="flex flex-col h-screen bg-white-200">
           <TopNavigation />
-          <div className="flex flex-col h-full overflow-y-scroll">
+          <div id="outer-content-container" className="flex flex-col h-full overflow-y-scroll flex-1-1-auto">
             <div className="width-full height-full p-4 flex flex-col gap-6">
               {children}
             </div>
           </div>
           <FooterNavigation />
+          </div>
       </body>
     </html>
   );

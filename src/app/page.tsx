@@ -58,7 +58,7 @@ export default function Home() {
 
   const CTAButton = () => {
     return (
-      <Link href="/my-order" className="bg-gradient-to-b from-green-200 to-green-300  p-2 rounded max-w-max text-brown-800" >Order now</Link>
+      <Link href="/menu" className="bg-gradient-to-b from-green-200 to-green-300  p-2 rounded max-w-max text-brown-800" >Order now</Link>
     );
   }
 
