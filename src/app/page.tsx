@@ -80,7 +80,6 @@ export default function Home() {
           {ArrayOfWeeklyHaunts.map((item, index) => (
             <ItemPreview key={index} name={item.name} description={item.description} image={item.image} />
           ))}
-
         </div>
       </div>
     </>
